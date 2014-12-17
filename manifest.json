@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Naver Webtoon Comment Hider",
-  "version": "0.1",
+  "version": "0.1.0",
 
   "description": "This extension hides comments in Naver webtoon",
 
