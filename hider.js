@@ -1,11 +1,11 @@
 (function () {
 
     var findCommentRows = function () {
-        return document.getElementsByClassName('cbox_desc_comment');
+        return document.getElementsByClassName('u_cbox_contents');
     };
 
     var hideComment = function (row) {
-        var comment = row.getElementsByClassName('cbox_desc')[0],
+        var comment = row,
             showLink = document.createElement('a');
 
         comment.style.color = '#fff';
